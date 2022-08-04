@@ -1,0 +1,8 @@
+n = input("Type a number")
+N = int(n)
+if (N % 3 == 0):
+    print ("Fiz")
+elif (N % 5 == 0):
+    print ("Buz")
+else:
+    print("FizBuzz")
