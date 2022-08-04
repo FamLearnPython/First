@@ -1,8 +1,12 @@
-n = input("Type a number")
+n = input("Type a number: ")
 N = int(n)
-if (N % 3 == 0):
+if (N % 3 == 0 and N % 5 == 0):
+    print ("FizBuzz")
+elif (N % 3 == 0):
     print ("Fiz")
 elif (N % 5 == 0):
     print ("Buz")
 else:
-    print("FizBuzz")
+    print("Not divisible by 3 or 5")
+    
+    
